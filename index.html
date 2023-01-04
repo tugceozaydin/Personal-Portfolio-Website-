@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/superslides.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/46c514429b.js" crossorigin="anonymous"></script>
@@ -25,7 +25,7 @@
     <div id="slides">
       <div class="slides-container">
         <img src="img/slide1.JPG" alt="">
-        <img src="img/slide2.JPG" alt="">
+        <img src="img/slide2.png" alt="">
         <img src="img/slide3.PNG" alt="">
       </div>
 
@@ -257,7 +257,7 @@
 
     </div>
     
-    <!-- <div id="portfolio" class="section">
+    <div id="portfolio" class="section">
 
       <div class="container">
 
@@ -271,9 +271,10 @@
             
             <ul id="filters">
               
-              <li><a href="#" data-filter="*" class="current">Change</a></li>
+              <li><a href="#" data-filter="*" class="current">ALL</a></li>
               <li><a href="#" data-filter=".game">Game Development</a></li>
               <li><a href="#" data-filter=".web">Web Development</a></li>
+              <li><a href="#" data-filter=".ui">UI Development</a></li>
               
             </ul>
             
@@ -287,15 +288,17 @@
                 
                 <div class="item">
                   
-                  <img src="img/portfolio/thumbnails/me.jpeg">
+                  <img src="img/portfolio/thumbnails/game.png">
                   
                   <div class="icons">
                     
-                    <a href="img/portfolio/thumbnails/me.jpeg" title="View image" class="openButton" data-fancybox data-caption="This is me!">
+                    <a href="img/portfolio/pictures/game-screen.png" title="View image" class="openButton" data-fancybox 
+                    data-caption="Here is the video game me and my 4 other teammate implemented for our Video Game class at university. 
+                    We developed the game from scratch using C++, OpenGL, GLFW, FreeType, and SDL.">
                       <i class="fa fa-search"></i>
                     </a>
                     
-                    <a href="" target="_blank" class="projectLink">
+                    <a href="https://github.com/tugceozaydin/videoGame" target="_blank" class="projectLink">
                       <i class="fa fa-link"></i>
                     </a>
                     
@@ -313,41 +316,15 @@
                 
                 <div class="item">
                   
-                  <img src="img/portfolio/thumbnails/me.jpeg">
+                  <img src="img/portfolio/thumbnails/unity.png">
                   
                   <div class="icons">
                     
-                    <a href="img/portfolio/thumbnails/me.jpeg" title="View image" class="openButton" data-fancybox data-caption="This is me!">
+                    <a href="img/portfolio/pictures/unity.png" title="View image" class="openButton" data-fancybox data-caption="Here is the game I developed through an online course in c# to learn Unity.">
                       <i class="fa fa-search"></i>
                     </a>
                     
-                    <a href="" target="_blank" class="projectLink">
-                      <i class="fa fa-link"></i>
-                    </a>
-                    
-                  </div>
-                  
-                  <div class="imageOverlay">
-                    
-                  </div>
-                  
-                </div>
-                
-              </li>
-              
-              <li onclick="" class="game col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                
-                <div class="item">
-                  
-                  <img src="img/portfolio/thumbnails/me.jpeg">
-                  
-                  <div class="icons">
-                    
-                    <a href="img/portfolio/thumbnails/me.jpeg" title="View image" class="openButton" data-fancybox data-caption="This is me!">
-                      <i class="fa fa-search"></i>
-                    </a>
-                    
-                    <a href="" target="_blank" class="projectLink">
+                    <a href="https://github.com/tugceozaydin/unityGame" target="_blank" class="projectLink">
                       <i class="fa fa-link"></i>
                     </a>
                     
@@ -365,11 +342,11 @@
                 
                 <div class="item">
                   
-                  <img src="img/portfolio/thumbnails/me.jpeg">
+                  <img src="img/portfolio/thumbnails/cpsc310.png">
                   
                   <div class="icons">
                     
-                    <a href="img/portfolio/thumbnails/me.jpeg" title="View image" class="openButton" data-fancybox data-caption="This is me!">
+                    <a href="img/portfolio/pictures/cpsc310.png" title="View image" class="openButton" data-fancybox data-caption="Built a website to look up historical grade distributions at UBC in Typescript">
                       <i class="fa fa-search"></i>
                     </a>
                     
@@ -387,19 +364,19 @@
                 
               </li>
               
-              <li onclick="" class="web col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <li onclick="" class="ui col-xs-6 col-sm-4 col-md-3 col-lg-3">
                 
                 <div class="item">
                   
-                  <img src="img/portfolio/thumbnails/me.jpeg">
+                  <img src="img/portfolio/thumbnails/printer.png">
                   
                   <div class="icons">
                     
-                    <a href="img/portfolio/thumbnails/me.jpeg" title="View image" class="openButton" data-fancybox data-caption="This is me!">
+                    <a href="img/portfolio/pictures/printer.png" title="View image" class="openButton" data-fancybox data-caption="Conducted research to design a prototype to recreate a printing webpage in Figma">
                       <i class="fa fa-search"></i>
                     </a>
                     
-                    <a href="" target="_blank" class="projectLink">
+                    <a href="https://www.figma.com/proto/qr0m82D6nqVbHVN7p8to3y/Wireframing-in-Figma?node-id=113%3A275&scaling=scale-down&page-id=0%3A1&starting-point-node-id=113%3A275&show-proto-sidebar=1" target="_blank" class="projectLink">
                       <i class="fa fa-link"></i>
                     </a>
                     
@@ -412,6 +389,32 @@
                 </div>
                 
               </li>
+              
+              <li onclick="" class="ui col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                
+                <div class="item">
+                  
+                  <img src="img/portfolio/thumbnails/mind.png">
+                  
+                  <div class="icons">
+                    
+                    <a href="img/portfolio/pictures/mind.png" title="View image" class="openButton" data-fancybox data-caption="Designed a prototype of a studying app with the goal of increasing mindful breaks in Figma">
+                      <i class="fa fa-search"></i>
+                    </a>
+                    
+                    <a href="https://www.figma.com/proto/q2HP9OqI9eG4J8niZeDJ8z/mind-hunters-low-fi-prototype?node-id=155%3A164&scaling=scale-down&page-id=0%3A1&starting-point-node-id=13%3A39&show-proto-sidebar=1" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                    
+                  </div>
+                  
+                  <div class="imageOverlay">
+                    
+                  </div>
+                  
+                </div>
+                
+              </li> 
               
             </ul>
             
@@ -422,7 +425,7 @@
         
       </div>
         
-    </div> -->
+    </div>
 
 
 
@@ -448,7 +451,7 @@
     <script src="js/jquery.easypiechart.js"></script>
     <script src="js/typed.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
     <script src="https://unpkg.com/isotope-layout@3.0.5/dist/isotope.pkgd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
