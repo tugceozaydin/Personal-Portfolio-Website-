@@ -73,6 +73,7 @@ $(document).ready(function() {
   }
   
   $("[data-fancybox]").fancybox();
+
   
   $(".items").isotope({
     filter: '*',
@@ -98,7 +99,6 @@ $(document).ready(function() {
     });
     return false;
   });
-
-
+  
 
 });
